@@ -1,4 +1,4 @@
-// BUG 2: Undefined Variable
+let taskCounter = 0;
 
 const taskInput = document.getElementById('taskInput');
 const addBtn = document.getElementById('addBtn');
@@ -21,7 +21,6 @@ function addTask() {
         return;
     }
 
-    // BUG 2: reference 
     taskCounter++;
 
     const task = {
